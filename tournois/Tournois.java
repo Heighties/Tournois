@@ -41,8 +41,9 @@ public class Tournois {
 			if (liste[i].getVictoires() == 2) {
 				System.out.println(
 						" Le vainqueur du tournois est " + liste[i].getName() + " il a " + liste[i].getElo() + " elo ");
-				break;
+				liste[i].affronte(cinq);
 
+				break;
 			}
 		}
 	}
