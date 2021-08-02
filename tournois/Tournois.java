@@ -7,7 +7,7 @@ public class Tournois {
 		Joueurs deux = new Joueurs("Paul", 1500, 0);
 		Joueurs trois = new Joueurs("Bruno", 1500, 0);
 		Joueurs quatre = new Joueurs("Nima", 1500, 0);
-		Joueurs cinq = new Joueurs("Champion du monde", 2000);
+		Joueurs cent = new Joueurs("Champion du monde", 2000);
 
 		Joueurs[] liste = { un, deux, trois, quatre };
 
@@ -41,7 +41,7 @@ public class Tournois {
 			if (liste[i].getVictoires() == 2) {
 				System.out.println(
 						" Le vainqueur du tournois est " + liste[i].getName() + " il a " + liste[i].getElo() + " elo ");
-				liste[i].affronte(cinq);
+				liste[i].affronte(cent);
 
 				break;
 			}
