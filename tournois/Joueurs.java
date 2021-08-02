@@ -14,6 +14,13 @@ public class Joueurs {
 
 	}
 
+	public Joueurs(String name, int elo) {
+		this.name = name;
+		this.elo = elo;
+		this.victoires = 0;
+
+	}
+
 	public String getName() {
 		return name;
 	}

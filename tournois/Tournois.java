@@ -7,6 +7,7 @@ public class Tournois {
 		Joueurs deux = new Joueurs("Paul", 1500, 0);
 		Joueurs trois = new Joueurs("Bruno", 1500, 0);
 		Joueurs quatre = new Joueurs("Nima", 1500, 0);
+		Joueurs cinq = new Joueurs("Champion du monde", 2000);
 
 		Joueurs[] liste = { un, deux, trois, quatre };
 
